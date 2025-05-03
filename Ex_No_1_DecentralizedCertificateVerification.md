@@ -30,14 +30,18 @@ return certificates[certHash];
 }
 ```
 # Expected Output:
-```
-● When the university issues a certificate, it gets stored as a hash.
-● A student or employer can verify the certificate by entering the details.
-● If valid, it returns true; otherwise, false.
+
+![Screenshot (148)](https://github.com/user-attachments/assets/7e77ccbf-bdb3-4a26-be63-4343576d3c59)
+
+![Screenshot 2025-04-18 201746](https://github.com/user-attachments/assets/0d9ea2f2-44be-48cb-ad5f-3302dbf853d0)
+
+
 High-Level Overview:
 ● Used to prevent fake certificates.
 ● Enables quick verification by employers or other institutions.
 ● Shows how blockchain can be used in education and credential verification.
-```
+
 # Result:
+
+Thus, the certificate verification using remix,integrated with metamask and ganche is executed sucessfully.
 
