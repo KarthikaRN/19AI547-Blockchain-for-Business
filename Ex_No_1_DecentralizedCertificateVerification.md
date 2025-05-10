@@ -1,11 +1,15 @@
+
 ### Experiment 1: Decentralized Certificate Verification
+## Name: M Sathish kumar
+## Reg no: 212222040150
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
-1. Deploy a smart contract where universities can issue certificates.
-2. Store a hash of certificate data on-chain.
-3. Provide a verification function that checks certificate authenticity.
-4. Users can verify the certificate by comparing the stored hash.
+1. Define a smart contract to issue certificates, storing student details and a unique certificate hash.  
+2. Restrict certificate issuance to authorized institutions using address-based access control.  
+3. Store only the certificate hash on-chain to protect privacy and reduce gas costs.  
+4. Provide a verification function to compare submitted hashes with on-chain records.  
+5. Use Ethereum’s immutable ledger to ensure certificates remain tamper-proof and authentic.
 ## Program:
 ```
 // SPDX-License-Identifier: MIT
@@ -29,15 +33,15 @@ return certificates[certHash];
 }
 }
 ```
-# Expected Output:
+# Expected Output
+![Screenshot 2025-04-16 091254](https://github.com/user-attachments/assets/de5d4b62-e608-411e-8404-dedb0c6cdb2a)
+
 ```
-● When the university issues a certificate, it gets stored as a hash.
-● A student or employer can verify the certificate by entering the details.
-● If valid, it returns true; otherwise, false.
-High-Level Overview:
-● Used to prevent fake certificates.
-● Enables quick verification by employers or other institutions.
-● Shows how blockchain can be used in education and credential verification.
+1. Ensures authenticity of academic certificates through blockchain’s immutability.  
+2. Prevents forgery and tampering with certificates using cryptographic verification.  
+3. Enables instant, transparent, and trustless verification by employers and institutions.  
+4. Reduces administrative overhead and paperwork in certificate issuance and validation.  
+5. Provides a permanent, decentralized record accessible from anywhere.
 ```
 # Result:
-
+A smart contract on Ethereum ensures secure, tamper-proof, and globally verifiable academic certificates.
